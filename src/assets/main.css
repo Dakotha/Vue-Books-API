@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-add-new {
+    @apply inline-block mb-6 px-4 py-3 bg-sky-500 hover:bg-sky-600 text-sm text-slate-100 hover:text-white rounded shadow;
+}
+
+.btn-back {
+    @apply inline-block mb-6 px-4 py-3 bg-slate-300 hover:bg-slate-400 text-sm text-slate-900 rounded shadow before:content-['...'] before:mr-1;
+}
